@@ -1,0 +1,12 @@
+PyQt5==5.15.9
+numpy
+pandas
+scikit-learn
+xgboost
+shap
+joblib
+mediapipe
+opencv-python
+matplotlib
+seaborn
+scipy
