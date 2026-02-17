@@ -1,15 +1,3 @@
-## 🖼️ Visualizations
-
-### Pose Estimation & Angle Tracking
-The system extracts real-time gait angles (Hip, Knee, Ankle) by calculating the vectors between detected keypoints. Below is an example of the pose estimation overlay on a patient video:
-
-![Gait Analysis Pose Estimation](Screenshot%202026-02-18%20002732.png)
-
-*Note: The green text overlays indicate calculated joint angles used for clinical assessment.*
-
----
-
-
 # Video-based Gait Analysis for Disease Prediction System
 
 This repository contains a Python-based pipeline for disease prediction and gait assessment using video analysis. It leverages pose estimation and machine learning to identify key gait parameters and classify neuromuscular and joint-related conditions based on patient walking videos.
@@ -54,3 +42,13 @@ This project processes 100+ patient videos (from [Mendeley Gait Dataset](https:/
 
 ```bash
 pip install -r requirements.txt
+```
+## 🖼️ Visualizations
+
+### Pose Estimation & Angle Tracking
+The system extracts real-time gait angles (Hip, Knee, Ankle) by calculating the vectors between detected keypoints. Below is an example of the pose estimation overlay on a patient video:
+
+![Gait Analysis Pose Estimation](Screenshot%202026-02-18%20002732.png)
+
+*Note: The green text overlays indicate calculated joint angles used for clinical assessment.*
+
